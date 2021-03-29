@@ -3,9 +3,9 @@
 
 
 # Week 1:
-    Setting up environment
-    Installing git hub
-    Linking pands-problem-sheet to git hub
+- Setting up environment
+- Installing git hub
+- Linking pands-problem-sheet to git hub
 
 # Week2: 
 ### Calculation of Body Mass Index (BMI), getting weight and height from user.
@@ -19,3 +19,7 @@
 - [x] BMI calculation
 - [x] Printing result to user with 2 decimal places in a string "BMI is XX.XX"
     
+
+
+# References
+- [REF1]: General formating of README file (https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) 

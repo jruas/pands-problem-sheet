@@ -11,7 +11,6 @@ weight = float(input ('Please insert your weight in Kilograms:'))
 
 
 newheight = (height/100)                                                #Converstion of height to metres.  
-bmi = (weight/newheight**2)                                             #bmi calculation
+bmi = round((weight/newheight**2),2)                                    #BMI calculation and converstion to 2 decimal places.
 
-
-print ('BMI is '+ str(round(bmi,2))+".")                                #Output of BMI, Converstion BMI result to two decimal places.
+print('BMI is {}.' .format(bmi))                                        #Output of BMI
