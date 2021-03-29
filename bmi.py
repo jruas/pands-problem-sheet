@@ -14,4 +14,4 @@ newheight = (height/100)                                                #Convers
 bmi = (weight/newheight**2)                                             #bmi calculation
 
 
-print ('BMI is '+ str(round(bmi,2))+".")
+print ('BMI is '+ str(round(bmi,2))+".")                                #Output of BMI, Converstion BMI result to two decimal places.
