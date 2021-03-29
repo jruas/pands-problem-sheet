@@ -8,11 +8,11 @@
     Linking pands-problem-sheet to git hub
 
 # Week2: 
-Calculation of Body Mass Index (BMI), getting weight and height from user.
+### Calculation of Body Mass Index (BMI), getting weight and height from user.
 
-file: bmi.py
+#### file: bmi.py
 
-Key-sections of code:
+##### Key-sections of code:
 - [x] Take in height and weight from user
 - [x] Conversion of input values to float
 - [x] Conversion of height to metres
