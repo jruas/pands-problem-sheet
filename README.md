@@ -25,6 +25,11 @@
 #### file: secondstring.py
 
 ##### Key-sections of code:
+- [x] Take in string from user
+- [x] Reverse that string [REF2]
+- [x] Loop to run the string and only outputs every second letter. [REF3]
+- [x] Loop starting in i=1 and not i=0 to start in second letter and not first.
+
 
 
 
