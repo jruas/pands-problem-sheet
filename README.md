@@ -18,8 +18,19 @@
 - [x] Conversion of height to metres
 - [x] BMI calculation
 - [x] Printing result to user with 2 decimal places in a string "BMI is XX.XX"
-    
+
+# Week 3:
+### Taking a string. Output every second letter in reserve order
+
+#### file: secondstring.py
+
+##### Key-sections of code:
+
+
+
 
 
 # References
 - [REF1]: General formating of README file (https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) 
+- [REF2]: Reversing a string (secondstring.py) (://www.w3schools.com/python/python_howto_reverse_string.asp)
+- [REF3]: Loop for missing every second string (secondstring.py) (https://stackoverflow.com/questions/57986268/remove-every-second-character-must-be-alphabetical-or-numerical-of-a-string-wi)
