@@ -1,3 +1,6 @@
+# GMIT 2021
+# Programming and Scripting
+# Weekly Tasks
 # pands-problem-sheet : JOANA RUAS
 ----------------------------------
 
@@ -67,7 +70,17 @@
 - [x] Reunning newton function with number from user.
 
 # Week 7:
+#### Program reads in a text tile and outputs the number of e's it contains.
+#### Program to take the filname from an argument on the command line
 
+#### file: es.py
+
+##### Key-sections of code:
+- [x] Import sys module (to be able to read document from command line).
+- [x] Define variable filename as sys.argv[1] to be able to read from command line. [REF7]
+- [x] Define function to read file.
+- [x] Count 'e' and 'E' in the text tile. [REF8]
+- [x] Print count
 
 
 # Week 8:
@@ -92,4 +105,6 @@
 - [REF3]: Loop for missing every second string (secondstring.py) (https://stackoverflow.com/questions/57986268/remove-every-second-character-must-be-alphabetical-or-numerical-of-a-string-wi)
 - [REF4]: Getting today's date (weekday.py) (https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python)
 - [REF5]: Weekday() function (weekday.py) (https://docs.python.org/3/library/datetime.html)
-- [REF6]: Newton Method (squareroot.py) https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+- [REF6]: Newton Method (squareroot.py) (https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots)
+- [REF7]: Read file from command line (es.py) (https://www.tutorialspoint.com/How-to-read-a-file-from-command-line-using-Python)
+- [REF8]: Read file from command line (es.py) (https://www.geeksforgeeks.org/python-count-occurrences-of-a-character-in-string/)

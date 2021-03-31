@@ -1,20 +1,13 @@
 # program starts asking the user to name a file to be created
-filename=input('Please insert the name for the file (example: hello.txt): ')
-usertext=input('Please insert the content for the file: ')
+#filename=input('Please insert the name for the file (example: hello.txt): ')
 
-#creating the file with the name from input
+import sys
 
-def writeFile ():
-    with open (filename, "wt") as f:
-        f.write(usertext)
+filename=sys.argv[1]                                                        #[REF]: https://www.tutorialspoint.com/How-to-read-a-file-from-command-line-using-Python
 
-#function to create and write the file is called:
-writeFile()
 
-#read file and counting: 
-# reference for counting:  https://www.geeksforgeeks.org/python-count-occurrences-of-a-character-in-string/
-def readFile ():
-    count=0
+def readFile ():                                                            #Function to read file and count 'E' or 'e'
+    count=0                                                                 #[REF]:https://www.geeksforgeeks.org/python-count-occurrences-of-a-character-in-string/
     with open(filename, "r") as f:
         for line in f:
             for i in line:
