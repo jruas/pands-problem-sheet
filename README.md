@@ -8,7 +8,7 @@
 - Linking pands-problem-sheet to git hub
 
 # Week2: 
-### Calculation of Body Mass Index (BMI), getting weight and height from user.
+#### Calculation of Body Mass Index (BMI), getting weight and height from user.
 
 #### file: bmi.py
 
@@ -20,7 +20,7 @@
 - [x] Printing result to user with 2 decimal places in a string "BMI is XX.XX"
 
 # Week 3:
-### Taking a string. Output every second letter in reserve order
+#### Taking a string. Output every second letter in reserve order
 
 #### file: secondstring.py
 
@@ -31,7 +31,7 @@
 - [x] Loop starting in i=1 and not i=0 to start in second letter and not first.
 
 # Week 4:
-### Program asks user to input an integer. Outputs successive values of the following calculation: At each step, calculates the next value by taking the current value. If it is even, divide by two, if it is odd, multiply it by three.
+#### Program asks user to input an integer. Outputs successive values of the following calculation: At each step, calculates the next value by taking the current value. If it is even, divide by two, if it is odd, multiply it by three.
 
 #### file: collatz.py
 
@@ -42,6 +42,43 @@
 - [x] Append the user's number to the list created.
 - [x] If statement for the two situations (number is even or number is odd)
 
+# Week 5:
+#### Program outputs whether or not today is a weekday.
+
+#### file: weekday.py
+
+##### Key-sections of code:
+
+
+# Week 6:
+#### Program takes a positive floating-point number as input and outputs an approximation of its square root
+
+#### file: squareroot.py
+
+##### Key-sections of code:
+- [x] Importing maths module.
+- [x] Taking floating point number from user as input.
+- [x] Converting to float
+- [x] Defining netwon function. [REF4]
+- [x] Reunning newton function with number from user.
+
+# Week 7:
+
+
+
+# Week 8:
+#### Program displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3, in the range [0,4]
+
+#### file: plottask.py
+
+##### Key-sections of code:
+- [x] Importing matplotlib.pyplot.
+- [x] Importing Numpy.
+- [x] Generate array from 0 to 4 with numpy.
+- [x] Generate functions f(x), g(x) and h(x) from x.
+- [x] Define plot (function to represent, colours, labels).
+- [x] Save plot into png figure.
+
 
 
 
@@ -49,3 +86,4 @@
 - [REF1]: General formating of README file (https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) 
 - [REF2]: Reversing a string (secondstring.py) (://www.w3schools.com/python/python_howto_reverse_string.asp)
 - [REF3]: Loop for missing every second string (secondstring.py) (https://stackoverflow.com/questions/57986268/remove-every-second-character-must-be-alphabetical-or-numerical-of-a-string-wi)
+- [REF4]: Newton Method (squareroot.py) https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
