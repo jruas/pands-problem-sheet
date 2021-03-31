@@ -25,12 +25,22 @@
 #### file: secondstring.py
 
 ##### Key-sections of code:
-- [x] Take in string from user
-- [x] Reverse that string [REF2]
+- [x] Take in string from user.
+- [x] Reverse that string. [REF2]
 - [x] Loop to run the string and only outputs every second letter. [REF3]
 - [x] Loop starting in i=1 and not i=0 to start in second letter and not first.
 
+# Week 4:
+### Program asks user to input an integer. Outputs successive values of the following calculation: At each step, calculates the next value by taking the current value. If it is even, divide by two, if it is odd, multiply it by three.
 
+#### file: collatz.py
+
+##### Key-sections of code:
+- [x] Take positive integer from user.
+- [x] Verify if input is positive integer. If not, ask again.
+- [x] Create an empty list.
+- [x] Append the user's number to the list created.
+- [x] If statement for the two situations (number is even or number is odd)
 
 
 
