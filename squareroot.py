@@ -1,7 +1,10 @@
-#Newtown Method. Source: https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
-import math
+#Program takes a positive floating-point number as input and outputs an approximation of its square root
 
-def newton(x):
+#Author: Joana Ruas
+
+import math                                                 #Importing maths module
+
+def newton(x):                                              #[REF4]: Newton Method: https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
    tolerance = 0.000001
    estimate = 1.0
    while True:
@@ -11,10 +14,7 @@ def newton(x):
             break
    return estimate
 
+num=input('Please insert a posivite floating point: ')   #Program taks positive floating point as input
+NewtonSQ=newton(float(num))                              #Converts the user's number to float and runs the function newton
 
-#program takes in a positive floating point:
-num=input('Please insert a posivite floating point: ')
-#converting to float
-NewtonSQ=newton(float(num))
-#printing
 print('The square root of {} is {}'. format(num, NewtonSQ))

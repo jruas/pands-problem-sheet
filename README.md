@@ -48,7 +48,11 @@
 #### file: weekday.py
 
 ##### Key-sections of code:
-
+- [x] Importing Python datetime module
+- [x] Getting todays date from datetime function. [REF4]
+- [x] Converting date into weekday index, using weekday function from datetime. [REF5]
+- [x] Creating a tuple of Strings of Weekdays (with indexes corresponding to weekday function indexes) 
+- [x] If statement: if today's index less than five, so it is weekday.
 
 # Week 6:
 #### Program takes a positive floating-point number as input and outputs an approximation of its square root
@@ -59,7 +63,7 @@
 - [x] Importing maths module.
 - [x] Taking floating point number from user as input.
 - [x] Converting to float
-- [x] Defining netwon function. [REF4]
+- [x] Defining netwon function. [REF6]
 - [x] Reunning newton function with number from user.
 
 # Week 7:
@@ -86,4 +90,6 @@
 - [REF1]: General formating of README file (https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) 
 - [REF2]: Reversing a string (secondstring.py) (://www.w3schools.com/python/python_howto_reverse_string.asp)
 - [REF3]: Loop for missing every second string (secondstring.py) (https://stackoverflow.com/questions/57986268/remove-every-second-character-must-be-alphabetical-or-numerical-of-a-string-wi)
-- [REF4]: Newton Method (squareroot.py) https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
+- [REF4]: Getting today's date (weekday.py) (https://stackoverflow.com/questions/32490629/getting-todays-date-in-yyyy-mm-dd-in-python)
+- [REF5]: Weekday() function (weekday.py) (https://docs.python.org/3/library/datetime.html)
+- [REF6]: Newton Method (squareroot.py) https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
