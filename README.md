@@ -16,11 +16,11 @@
 #### file: bmi.py
 
 ##### Key-sections of code:
-- [x] Take in height and weight from user
-- [x] Conversion of input values to float
-- [x] Conversion of height to metres
+- [x] Taking in height and weight from user
+- [x] Converting input values to float
+- [x] Converting height to metres
 - [x] BMI calculation
-- [x] Printing result to user with 2 decimal places in a string "BMI is XX.XX"
+- [x] Printing result to user, with 2 decimal places as "BMI is XX.XX"
 
 # Week 3:
 #### Taking a string. Output every second letter in reserve order
@@ -28,8 +28,8 @@
 #### file: secondstring.py
 
 ##### Key-sections of code:
-- [x] Take in string from user.
-- [x] Reverse that string. [REF2]
+- [x] Taking in a string from user.
+- [x] Reversing that string. [REF2]
 - [x] Loop to run the string and only outputs every second letter. [REF3]
 - [x] Loop starting in i=1 and not i=0 to start in second letter and not first.
 
@@ -39,11 +39,11 @@
 #### file: collatz.py
 
 ##### Key-sections of code:
-- [x] Take positive integer from user.
-- [x] Verify if input is positive integer. If not, ask again.
-- [x] Create an empty list.
-- [x] Append the user's number to the list created.
-- [x] If statement for the two situations (number is even or number is odd)
+- [x] Taking a positive integer from user.
+- [x] Verifying if input is positive integer. If not, ask again.
+- [x] Creating an empty list.
+- [x] Appendding the user's number to the list created.
+- [x] If statement for both situations (even or odd number)
 
 # Week 5:
 #### Program outputs whether or not today is a weekday.
@@ -76,10 +76,10 @@
 #### file: es.py
 
 ##### Key-sections of code:
-- [x] Import sys module (to be able to read document from command line).
-- [x] Define variable filename as sys.argv[1] to be able to read from command line. [REF7]
-- [x] Define function to read file.
-- [x] Count 'e' and 'E' in the text tile. [REF8]
+- [x] Importing sys module (to be able to read document from command line).
+- [x] Defining variable filename as sys.argv[1] to be able to read from command line. [REF7]
+- [x] Defining function to read file.
+- [x] Counting 'e' and 'E' in the text tile. [REF8]
 - [x] Print count
 
 
@@ -91,10 +91,10 @@
 ##### Key-sections of code:
 - [x] Importing matplotlib.pyplot.
 - [x] Importing Numpy.
-- [x] Generate array from 0 to 4 with numpy.
-- [x] Generate functions f(x), g(x) and h(x) from x.
-- [x] Define plot (function to represent, colours, labels).
-- [x] Save plot into png figure.
+- [x] Generating array from 0 to 4 with numpy.
+- [x] Generating functions f(x), g(x) and h(x) from x.
+- [x] Defining plot (function to represent, colours, labels).
+- [x] Saving plot into png figure.
 
 
 

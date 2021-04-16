@@ -10,12 +10,12 @@ number=int(input('Please insert a positive integer: '))                         
 
 if number <=0:                                                                  #Verifying if input is a positve integer.
     print('Wrong!')                                     
-    number=int(input('Please try again: '))                                     #If not, ask user again
+    number=int(input('Please try again: '))                                     #If not, asking user again
 
 numberslist=[]                                                                  #Creating an empty list
 numberslist.append(int(number))                                                 #Appending input number to that list
 
-while number !=1:                                                               #While number is not 1 the program will run 
+while number !=1:                                                               #While number is not 1 the program is running 
     if number %2==0:                                                            #If number is even
         number=number/2
         numberslist.append(int(number))
@@ -23,5 +23,5 @@ while number !=1:                                                               
         number=(number*3)+1
         numberslist.append(int(number))
 
-print(numberslist)
+print(numberslist)                                                              #printing output
 

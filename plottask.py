@@ -21,6 +21,6 @@ plt.plot(xpoints,hx, color='green', label='h(x)')
 plt.title('Functions')                              # Reference to exercise 10 from lab
 plt.xlabel('X')                                     # Reference to exercise 10 from lab
 plt.ylabel('Function of X')                         # Reference to exercise 10 from lab
-plt.legend()                                        # Reference to exercise 10 from lab
+plt.legend()                                        # Reference to exercise 10 from lab. Shows whatever is assigned to 'label'
 
 plt.savefig('plotImage.png')
